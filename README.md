@@ -2,9 +2,14 @@
 
 SVG brand icons for stock, crypto, and forex brokers.
 
+[![npm](https://img.shields.io/npm/v/brokers-encyclopedia.svg)](https://www.npmjs.com/package/brokers-encyclopedia)
+[![license](https://img.shields.io/npm/l/brokers-encyclopedia.svg)](./LICENSE)
+
 ```bash
 npm install brokers-encyclopedia
 ```
+
+Icons are 128×128 SVGs with a transparent background. Look them up by slug (`robinhood`) or a common alias (`ibkr`, `mt4`, `schwab`).
 
 ## Usage
 
@@ -13,7 +18,7 @@ npm install brokers-encyclopedia
 ```js
 import { brokers, getBroker, getIconSvg, listBrokers } from "brokers-encyclopedia";
 
-getBroker("ibkr");
+const ib = getBroker("ibkr");
 // {
 //   slug: "interactive-brokers",
 //   name: "Interactive Brokers",
@@ -22,18 +27,19 @@ getBroker("ibkr");
 //   svg: "<svg ...>"
 // }
 
-getIconSvg("robinhood");
-listBrokers(); // metadata only, no SVG payloads
-brokers.length;
+getIconSvg("robinhood"); // SVG markup
+listBrokers();           // names and slugs only
 ```
 
-Slugs are kebab-case. Underscores, spaces, and aliases also resolve:
+Underscores, spaces, and aliases resolve to the same icon:
 
 ```js
 getBroker("interactive_brokers");
 getBroker("Charles Schwab");
 getBroker("mt4");
 ```
+
+Unknown ids return `undefined`.
 
 ### SVG files
 
@@ -42,7 +48,12 @@ import robinhood from "brokers-encyclopedia/icons/robinhood.svg";
 ```
 
 ```html
-<img src="./node_modules/brokers-encyclopedia/icons/coinbase.svg" alt="Coinbase" />
+<img
+  src="./node_modules/brokers-encyclopedia/icons/coinbase.svg"
+  alt="Coinbase"
+  width="32"
+  height="32"
+/>
 ```
 
 ### React
@@ -51,7 +62,14 @@ import robinhood from "brokers-encyclopedia/icons/robinhood.svg";
 function BrokerIcon({ id, ...props }) {
   const broker = getBroker(id);
   if (!broker) return null;
-  return <span role="img" aria-label={broker.name} dangerouslySetInnerHTML={{ __html: broker.svg }} {...props} />;
+  return (
+    <span
+      role="img"
+      aria-label={broker.name}
+      dangerouslySetInnerHTML={{ __html: broker.svg }}
+      {...props}
+    />
+  );
 }
 ```
 
@@ -90,18 +108,6 @@ function BrokerIcon({ id, ...props }) {
 | `webull` | Webull | |
 | `wells-fargo` | Wells Fargo | `wells_fargo`, `wellsfargo` |
 | `zerodha` | Zerodha | `kite` |
-
-## Publish
-
-Every push to `main` runs `.github/workflows/release.yml`: tests, bumps the patch version when that version is already on npm, creates a GitHub Release, and publishes to npm.
-
-Add a repository secret named `NPM_TOKEN` (npm Access Token with publish rights). GitHub’s `GITHUB_TOKEN` is enough for tags and releases.
-
-```bash
-# optional local publish
-npm test
-npm publish --access public
-```
 
 ## License
 
