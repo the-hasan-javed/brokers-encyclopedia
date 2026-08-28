@@ -1,0 +1,84 @@
+name: Release
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: npm-release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    if: ${{ github.event_name == 'workflow_dispatch' || !contains(github.event.head_commit.message, 'chore(release)') }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          registry-url: https://registry.npmjs.org
+
+      - name: Test
+        run: npm test
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Bump version if needed
+        id: version
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          set -euo pipefail
+          CURRENT="$(node -p "require('./package.json').version")"
+          NEXT="$CURRENT"
+
+          if npm view brokers-encyclopedia version >/dev/null 2>&1; then
+            if npm view "brokers-encyclopedia@${CURRENT}" version >/dev/null 2>&1; then
+              npm version patch --no-git-tag-version
+              NEXT="$(node -p "require('./package.json').version")"
+            fi
+          fi
+
+          echo "version=${NEXT}" >> "$GITHUB_OUTPUT"
+          echo "Publishing brokers-encyclopedia@${NEXT}"
+
+      - name: Commit, tag, and push
+        run: |
+          set -euo pipefail
+          VERSION="${{ steps.version.outputs.version }}"
+          if git diff --quiet -- package.json; then
+            git tag -f "v${VERSION}"
+          else
+            git add package.json
+            git commit -m "chore(release): v${VERSION}"
+            git tag "v${VERSION}"
+          fi
+          git push origin HEAD --tags
+
+      - name: Publish to npm
+        run: npm publish --provenance --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: GitHub Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          VERSION="${{ steps.version.outputs.version }}"
+          if gh release view "v${VERSION}" >/dev/null 2>&1; then
+            echo "GitHub release v${VERSION} already exists"
+          else
+            gh release create "v${VERSION}" --title "v${VERSION}" --generate-notes
+          fi

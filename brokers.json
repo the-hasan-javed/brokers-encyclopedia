@@ -1,0 +1,157 @@
+[
+  {
+    "slug": "alpaca",
+    "name": "Alpaca",
+    "aliases": []
+  },
+  {
+    "slug": "binance",
+    "name": "Binance",
+    "aliases": []
+  },
+  {
+    "slug": "bitget",
+    "name": "Bitget",
+    "aliases": []
+  },
+  {
+    "slug": "bux",
+    "name": "BUX",
+    "aliases": []
+  },
+  {
+    "slug": "bybit",
+    "name": "Bybit",
+    "aliases": []
+  },
+  {
+    "slug": "capital-com",
+    "name": "Capital.com",
+    "aliases": ["capital_com", "capital.com", "capital"]
+  },
+  {
+    "slug": "charles-schwab",
+    "name": "Charles Schwab",
+    "aliases": ["schwab", "charles_schwab"]
+  },
+  {
+    "slug": "chase",
+    "name": "Chase",
+    "aliases": ["jpmorgan-chase"]
+  },
+  {
+    "slug": "coinbase",
+    "name": "Coinbase",
+    "aliases": []
+  },
+  {
+    "slug": "degiro",
+    "name": "DEGIRO",
+    "aliases": []
+  },
+  {
+    "slug": "etrade",
+    "name": "E*TRADE",
+    "aliases": ["e-trade", "e_trade"]
+  },
+  {
+    "slug": "fidelity",
+    "name": "Fidelity",
+    "aliases": []
+  },
+  {
+    "slug": "interactive-brokers",
+    "name": "Interactive Brokers",
+    "aliases": ["ib", "ibkr", "interactive_brokers"]
+  },
+  {
+    "slug": "kraken",
+    "name": "Kraken",
+    "aliases": []
+  },
+  {
+    "slug": "metatrader-mt4",
+    "name": "MetaTrader 4",
+    "aliases": ["mt4", "metatrader_mt4", "metatrader4"]
+  },
+  {
+    "slug": "metatrader-mt5",
+    "name": "MetaTrader 5",
+    "aliases": ["mt5", "metatrader_mt5", "metatrader5"]
+  },
+  {
+    "slug": "moomoo",
+    "name": "moomoo",
+    "aliases": []
+  },
+  {
+    "slug": "oanda",
+    "name": "OANDA",
+    "aliases": []
+  },
+  {
+    "slug": "questrade",
+    "name": "Questrade",
+    "aliases": []
+  },
+  {
+    "slug": "robinhood",
+    "name": "Robinhood",
+    "aliases": ["rh"]
+  },
+  {
+    "slug": "tastytrade",
+    "name": "tastytrade",
+    "aliases": ["tastyworks"]
+  },
+  {
+    "slug": "td-ameritrade",
+    "name": "TD Ameritrade",
+    "aliases": ["td_ameritrade", "thinkorswim", "tos"]
+  },
+  {
+    "slug": "tradestation-paper",
+    "name": "TradeStation",
+    "aliases": ["tradestation", "tradestation_paper"]
+  },
+  {
+    "slug": "tradier",
+    "name": "Tradier",
+    "aliases": []
+  },
+  {
+    "slug": "trading212",
+    "name": "Trading 212",
+    "aliases": ["trading-212", "t212"]
+  },
+  {
+    "slug": "upstox",
+    "name": "Upstox",
+    "aliases": []
+  },
+  {
+    "slug": "vanguard-us",
+    "name": "Vanguard",
+    "aliases": ["vanguard", "vanguard_us"]
+  },
+  {
+    "slug": "wealthsimple-trade",
+    "name": "Wealthsimple",
+    "aliases": ["wealthsimple", "wealthsimple_trade"]
+  },
+  {
+    "slug": "webull",
+    "name": "Webull",
+    "aliases": []
+  },
+  {
+    "slug": "wells-fargo",
+    "name": "Wells Fargo",
+    "aliases": ["wells_fargo", "wellsfargo"]
+  },
+  {
+    "slug": "zerodha",
+    "name": "Zerodha",
+    "aliases": ["kite"]
+  }
+]

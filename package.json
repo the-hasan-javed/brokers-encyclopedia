@@ -1,0 +1,58 @@
+{
+  "name": "brokers-encyclopedia",
+  "version": "1.0.0",
+  "description": "SVG brand icons for stock, crypto, and forex brokers.",
+  "license": "MIT",
+  "author": "Hasan Javed <hasanjaved065@gmail.com>",
+  "type": "module",
+  "main": "./index.js",
+  "module": "./index.js",
+  "types": "./index.d.ts",
+  "sideEffects": false,
+  "files": [
+    "icons",
+    "index.js",
+    "index.d.ts",
+    "brokers.json"
+  ],
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js",
+      "default": "./index.js"
+    },
+    "./brokers.json": "./brokers.json",
+    "./icons/*.svg": "./icons/*.svg",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "prepack": "npm run build",
+    "test": "node --test test/package.test.mjs"
+  },
+  "keywords": [
+    "brokers",
+    "icons",
+    "svg",
+    "trading",
+    "fintech",
+    "crypto",
+    "forex",
+    "stock-broker",
+    "logo"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-hasan-javed/brokers-encyclopedia.git"
+  },
+  "bugs": {
+    "url": "https://github.com/the-hasan-javed/brokers-encyclopedia/issues"
+  },
+  "homepage": "https://github.com/the-hasan-javed/brokers-encyclopedia#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
