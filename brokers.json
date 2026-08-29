@@ -1,7 +1,27 @@
 [
   {
+    "slug": "aj-bell",
+    "name": "AJ Bell",
+    "aliases": ["ajbell"]
+  },
+  {
+    "slug": "ally-invest",
+    "name": "Ally Invest",
+    "aliases": ["ally"]
+  },
+  {
     "slug": "alpaca",
     "name": "Alpaca",
+    "aliases": []
+  },
+  {
+    "slug": "angel-one",
+    "name": "Angel One",
+    "aliases": ["angelone", "angel-broking"]
+  },
+  {
+    "slug": "avanza",
+    "name": "Avanza",
     "aliases": []
   },
   {
@@ -45,6 +65,11 @@
     "aliases": []
   },
   {
+    "slug": "crypto-com",
+    "name": "Crypto.com",
+    "aliases": ["cryptocom", "crypto.com"]
+  },
+  {
     "slug": "degiro",
     "name": "DEGIRO",
     "aliases": []
@@ -55,9 +80,44 @@
     "aliases": ["e-trade", "e_trade"]
   },
   {
+    "slug": "etoro",
+    "name": "eToro",
+    "aliases": []
+  },
+  {
+    "slug": "exness",
+    "name": "Exness",
+    "aliases": []
+  },
+  {
     "slug": "fidelity",
     "name": "Fidelity",
     "aliases": []
+  },
+  {
+    "slug": "fineco",
+    "name": "Fineco",
+    "aliases": ["fineco-bank"]
+  },
+  {
+    "slug": "gemini",
+    "name": "Gemini",
+    "aliases": []
+  },
+  {
+    "slug": "groww",
+    "name": "Groww",
+    "aliases": []
+  },
+  {
+    "slug": "hargreaves-lansdown",
+    "name": "Hargreaves Lansdown",
+    "aliases": ["hl"]
+  },
+  {
+    "slug": "ig",
+    "name": "IG",
+    "aliases": ["ig-group", "ig-markets"]
   },
   {
     "slug": "interactive-brokers",
@@ -68,6 +128,16 @@
     "slug": "kraken",
     "name": "Kraken",
     "aliases": []
+  },
+  {
+    "slug": "kucoin",
+    "name": "KuCoin",
+    "aliases": []
+  },
+  {
+    "slug": "merrill-edge",
+    "name": "Merrill Edge",
+    "aliases": ["merrill", "merrill-lynch"]
   },
   {
     "slug": "metatrader-mt4",
@@ -82,6 +152,11 @@
   {
     "slug": "moomoo",
     "name": "moomoo",
+    "aliases": ["futu"]
+  },
+  {
+    "slug": "nordnet",
+    "name": "Nordnet",
     "aliases": []
   },
   {
@@ -90,14 +165,59 @@
     "aliases": []
   },
   {
+    "slug": "okx",
+    "name": "OKX",
+    "aliases": ["okex"]
+  },
+  {
+    "slug": "pepperstone",
+    "name": "Pepperstone",
+    "aliases": []
+  },
+  {
+    "slug": "plus500",
+    "name": "Plus500",
+    "aliases": []
+  },
+  {
+    "slug": "public",
+    "name": "Public",
+    "aliases": ["public-com"]
+  },
+  {
     "slug": "questrade",
     "name": "Questrade",
     "aliases": []
   },
   {
+    "slug": "revolut",
+    "name": "Revolut",
+    "aliases": ["revolut-invest"]
+  },
+  {
     "slug": "robinhood",
     "name": "Robinhood",
     "aliases": ["rh"]
+  },
+  {
+    "slug": "saxo",
+    "name": "Saxo",
+    "aliases": ["saxo-bank", "saxobank"]
+  },
+  {
+    "slug": "scalable-capital",
+    "name": "Scalable Capital",
+    "aliases": ["scalable"]
+  },
+  {
+    "slug": "sofi",
+    "name": "SoFi",
+    "aliases": ["sofi-invest"]
+  },
+  {
+    "slug": "swissquote",
+    "name": "Swissquote",
+    "aliases": []
   },
   {
     "slug": "tastytrade",
@@ -108,6 +228,11 @@
     "slug": "td-ameritrade",
     "name": "TD Ameritrade",
     "aliases": ["td_ameritrade", "thinkorswim", "tos"]
+  },
+  {
+    "slug": "trade-republic",
+    "name": "Trade Republic",
+    "aliases": ["traderepublic"]
   },
   {
     "slug": "tradestation-paper",
@@ -148,6 +273,11 @@
     "slug": "wells-fargo",
     "name": "Wells Fargo",
     "aliases": ["wells_fargo", "wellsfargo"]
+  },
+  {
+    "slug": "xtb",
+    "name": "XTB",
+    "aliases": []
   },
   {
     "slug": "zerodha",
