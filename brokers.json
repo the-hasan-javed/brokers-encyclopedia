@@ -1,13 +1,36 @@
 [
   {
+    "slug": "5paisa",
+    "name": "5paisa",
+    "aliases": [
+      "fivepaisa"
+    ]
+  },
+  {
+    "slug": "acorns",
+    "name": "Acorns",
+    "aliases": []
+  },
+  {
+    "slug": "admirals",
+    "name": "Admirals",
+    "aliases": [
+      "admiral-markets"
+    ]
+  },
+  {
     "slug": "aj-bell",
     "name": "AJ Bell",
-    "aliases": ["ajbell"]
+    "aliases": [
+      "ajbell"
+    ]
   },
   {
     "slug": "ally-invest",
     "name": "Ally Invest",
-    "aliases": ["ally"]
+    "aliases": [
+      "ally"
+    ]
   },
   {
     "slug": "alpaca",
@@ -17,11 +40,31 @@
   {
     "slug": "angel-one",
     "name": "Angel One",
-    "aliases": ["angelone", "angel-broking"]
+    "aliases": [
+      "angelone",
+      "angel-broking"
+    ]
   },
   {
     "slug": "avanza",
     "name": "Avanza",
+    "aliases": []
+  },
+  {
+    "slug": "avatrade",
+    "name": "AvaTrade",
+    "aliases": []
+  },
+  {
+    "slug": "axi",
+    "name": "Axi",
+    "aliases": [
+      "axitrader"
+    ]
+  },
+  {
+    "slug": "betterment",
+    "name": "Betterment",
     "aliases": []
   },
   {
@@ -30,8 +73,23 @@
     "aliases": []
   },
   {
+    "slug": "bitfinex",
+    "name": "Bitfinex",
+    "aliases": []
+  },
+  {
     "slug": "bitget",
     "name": "Bitget",
+    "aliases": []
+  },
+  {
+    "slug": "bitpanda",
+    "name": "Bitpanda",
+    "aliases": []
+  },
+  {
+    "slug": "bitstamp",
+    "name": "Bitstamp",
     "aliases": []
   },
   {
@@ -47,17 +105,33 @@
   {
     "slug": "capital-com",
     "name": "Capital.com",
-    "aliases": ["capital_com", "capital.com", "capital"]
+    "aliases": [
+      "capital_com",
+      "capital.com",
+      "capital"
+    ]
   },
   {
     "slug": "charles-schwab",
     "name": "Charles Schwab",
-    "aliases": ["schwab", "charles_schwab"]
+    "aliases": [
+      "schwab",
+      "charles_schwab"
+    ]
   },
   {
     "slug": "chase",
     "name": "Chase",
-    "aliases": ["jpmorgan-chase"]
+    "aliases": [
+      "jpmorgan-chase"
+    ]
+  },
+  {
+    "slug": "cmc-markets",
+    "name": "CMC Markets",
+    "aliases": [
+      "cmc"
+    ]
   },
   {
     "slug": "coinbase",
@@ -65,9 +139,22 @@
     "aliases": []
   },
   {
+    "slug": "comdirect",
+    "name": "comdirect",
+    "aliases": []
+  },
+  {
+    "slug": "commsec",
+    "name": "CommSec",
+    "aliases": []
+  },
+  {
     "slug": "crypto-com",
     "name": "Crypto.com",
-    "aliases": ["cryptocom", "crypto.com"]
+    "aliases": [
+      "cryptocom",
+      "crypto.com"
+    ]
   },
   {
     "slug": "degiro",
@@ -75,9 +162,19 @@
     "aliases": []
   },
   {
-    "slug": "etrade",
-    "name": "E*TRADE",
-    "aliases": ["e-trade", "e_trade"]
+    "slug": "deribit",
+    "name": "Deribit",
+    "aliases": []
+  },
+  {
+    "slug": "dukascopy",
+    "name": "Dukascopy",
+    "aliases": []
+  },
+  {
+    "slug": "eightcap",
+    "name": "Eightcap",
+    "aliases": []
   },
   {
     "slug": "etoro",
@@ -85,8 +182,21 @@
     "aliases": []
   },
   {
+    "slug": "etrade",
+    "name": "E*TRADE",
+    "aliases": [
+      "e-trade",
+      "e_trade"
+    ]
+  },
+  {
     "slug": "exness",
     "name": "Exness",
+    "aliases": []
+  },
+  {
+    "slug": "fbs",
+    "name": "FBS",
     "aliases": []
   },
   {
@@ -97,7 +207,59 @@
   {
     "slug": "fineco",
     "name": "Fineco",
-    "aliases": ["fineco-bank"]
+    "aliases": [
+      "fineco-bank"
+    ]
+  },
+  {
+    "slug": "firstrade",
+    "name": "Firstrade",
+    "aliases": []
+  },
+  {
+    "slug": "flatex",
+    "name": "flatex",
+    "aliases": [
+      "flatexdegiro"
+    ]
+  },
+  {
+    "slug": "forex-com",
+    "name": "FOREX.com",
+    "aliases": [
+      "forex.com",
+      "forexcom"
+    ]
+  },
+  {
+    "slug": "fp-markets",
+    "name": "FP Markets",
+    "aliases": [
+      "fpmarkets"
+    ]
+  },
+  {
+    "slug": "freetrade",
+    "name": "Freetrade",
+    "aliases": []
+  },
+  {
+    "slug": "fxcm",
+    "name": "FXCM",
+    "aliases": []
+  },
+  {
+    "slug": "fxpro",
+    "name": "FxPro",
+    "aliases": []
+  },
+  {
+    "slug": "gate-io",
+    "name": "Gate.io",
+    "aliases": [
+      "gateio",
+      "gate"
+    ]
   },
   {
     "slug": "gemini",
@@ -112,17 +274,68 @@
   {
     "slug": "hargreaves-lansdown",
     "name": "Hargreaves Lansdown",
-    "aliases": ["hl"]
+    "aliases": [
+      "hl"
+    ]
+  },
+  {
+    "slug": "hdfc-securities",
+    "name": "HDFC Securities",
+    "aliases": [
+      "hdfc"
+    ]
+  },
+  {
+    "slug": "hfm",
+    "name": "HFM",
+    "aliases": [
+      "hotforex"
+    ]
+  },
+  {
+    "slug": "htx",
+    "name": "HTX",
+    "aliases": [
+      "huobi"
+    ]
+  },
+  {
+    "slug": "ic-markets",
+    "name": "IC Markets",
+    "aliases": [
+      "icmarkets"
+    ]
+  },
+  {
+    "slug": "icici-direct",
+    "name": "ICICI Direct",
+    "aliases": [
+      "icicidirect"
+    ]
   },
   {
     "slug": "ig",
     "name": "IG",
-    "aliases": ["ig-group", "ig-markets"]
+    "aliases": [
+      "ig-group",
+      "ig-markets"
+    ]
   },
   {
     "slug": "interactive-brokers",
     "name": "Interactive Brokers",
-    "aliases": ["ib", "ibkr", "interactive_brokers"]
+    "aliases": [
+      "ib",
+      "ibkr",
+      "interactive_brokers"
+    ]
+  },
+  {
+    "slug": "interactive-investor",
+    "name": "interactive investor",
+    "aliases": [
+      "ii"
+    ]
   },
   {
     "slug": "kraken",
@@ -135,24 +348,59 @@
     "aliases": []
   },
   {
+    "slug": "lightyear",
+    "name": "Lightyear",
+    "aliases": []
+  },
+  {
+    "slug": "m1-finance",
+    "name": "M1 Finance",
+    "aliases": [
+      "m1"
+    ]
+  },
+  {
     "slug": "merrill-edge",
     "name": "Merrill Edge",
-    "aliases": ["merrill", "merrill-lynch"]
+    "aliases": [
+      "merrill",
+      "merrill-lynch"
+    ]
   },
   {
     "slug": "metatrader-mt4",
     "name": "MetaTrader 4",
-    "aliases": ["mt4", "metatrader_mt4", "metatrader4"]
+    "aliases": [
+      "mt4",
+      "metatrader_mt4",
+      "metatrader4"
+    ]
   },
   {
     "slug": "metatrader-mt5",
     "name": "MetaTrader 5",
-    "aliases": ["mt5", "metatrader_mt5", "metatrader5"]
+    "aliases": [
+      "mt5",
+      "metatrader_mt5",
+      "metatrader5"
+    ]
+  },
+  {
+    "slug": "mexc",
+    "name": "MEXC",
+    "aliases": []
   },
   {
     "slug": "moomoo",
     "name": "moomoo",
-    "aliases": ["futu"]
+    "aliases": [
+      "futu"
+    ]
+  },
+  {
+    "slug": "ninjatrader",
+    "name": "NinjaTrader",
+    "aliases": []
   },
   {
     "slug": "nordnet",
@@ -165,9 +413,26 @@
     "aliases": []
   },
   {
+    "slug": "octafx",
+    "name": "Octa",
+    "aliases": [
+      "octa",
+      "octafx"
+    ]
+  },
+  {
     "slug": "okx",
     "name": "OKX",
-    "aliases": ["okex"]
+    "aliases": [
+      "okex"
+    ]
+  },
+  {
+    "slug": "paytm-money",
+    "name": "Paytm Money",
+    "aliases": [
+      "paytm"
+    ]
   },
   {
     "slug": "pepperstone",
@@ -182,7 +447,9 @@
   {
     "slug": "public",
     "name": "Public",
-    "aliases": ["public-com"]
+    "aliases": [
+      "public-com"
+    ]
   },
   {
     "slug": "questrade",
@@ -190,29 +457,57 @@
     "aliases": []
   },
   {
+    "slug": "rakuten",
+    "name": "Rakuten Securities",
+    "aliases": [
+      "rakuten-securities"
+    ]
+  },
+  {
     "slug": "revolut",
     "name": "Revolut",
-    "aliases": ["revolut-invest"]
+    "aliases": [
+      "revolut-invest"
+    ]
   },
   {
     "slug": "robinhood",
     "name": "Robinhood",
-    "aliases": ["rh"]
+    "aliases": [
+      "rh"
+    ]
   },
   {
     "slug": "saxo",
     "name": "Saxo",
-    "aliases": ["saxo-bank", "saxobank"]
+    "aliases": [
+      "saxo-bank",
+      "saxobank"
+    ]
   },
   {
     "slug": "scalable-capital",
     "name": "Scalable Capital",
-    "aliases": ["scalable"]
+    "aliases": [
+      "scalable"
+    ]
+  },
+  {
+    "slug": "sharesies",
+    "name": "Sharesies",
+    "aliases": []
   },
   {
     "slug": "sofi",
     "name": "SoFi",
-    "aliases": ["sofi-invest"]
+    "aliases": [
+      "sofi-invest"
+    ]
+  },
+  {
+    "slug": "stake",
+    "name": "Stake",
+    "aliases": []
   },
   {
     "slug": "swissquote",
@@ -222,22 +517,53 @@
   {
     "slug": "tastytrade",
     "name": "tastytrade",
-    "aliases": ["tastyworks"]
+    "aliases": [
+      "tastyworks"
+    ]
   },
   {
     "slug": "td-ameritrade",
     "name": "TD Ameritrade",
-    "aliases": ["td_ameritrade", "thinkorswim", "tos"]
+    "aliases": [
+      "td_ameritrade",
+      "thinkorswim",
+      "tos"
+    ]
+  },
+  {
+    "slug": "td-direct-investing",
+    "name": "TD Direct Investing",
+    "aliases": [
+      "td-di",
+      "td-canada"
+    ]
+  },
+  {
+    "slug": "tickmill",
+    "name": "Tickmill",
+    "aliases": []
+  },
+  {
+    "slug": "tiger-brokers",
+    "name": "Tiger Brokers",
+    "aliases": [
+      "tiger"
+    ]
   },
   {
     "slug": "trade-republic",
     "name": "Trade Republic",
-    "aliases": ["traderepublic"]
+    "aliases": [
+      "traderepublic"
+    ]
   },
   {
     "slug": "tradestation-paper",
     "name": "TradeStation",
-    "aliases": ["tradestation", "tradestation_paper"]
+    "aliases": [
+      "tradestation",
+      "tradestation_paper"
+    ]
   },
   {
     "slug": "tradier",
@@ -247,7 +573,10 @@
   {
     "slug": "trading212",
     "name": "Trading 212",
-    "aliases": ["trading-212", "t212"]
+    "aliases": [
+      "trading-212",
+      "t212"
+    ]
   },
   {
     "slug": "upstox",
@@ -257,12 +586,18 @@
   {
     "slug": "vanguard-us",
     "name": "Vanguard",
-    "aliases": ["vanguard", "vanguard_us"]
+    "aliases": [
+      "vanguard",
+      "vanguard_us"
+    ]
   },
   {
     "slug": "wealthsimple-trade",
     "name": "Wealthsimple",
-    "aliases": ["wealthsimple", "wealthsimple_trade"]
+    "aliases": [
+      "wealthsimple",
+      "wealthsimple_trade"
+    ]
   },
   {
     "slug": "webull",
@@ -272,7 +607,17 @@
   {
     "slug": "wells-fargo",
     "name": "Wells Fargo",
-    "aliases": ["wells_fargo", "wellsfargo"]
+    "aliases": [
+      "wells_fargo",
+      "wellsfargo"
+    ]
+  },
+  {
+    "slug": "xm",
+    "name": "XM",
+    "aliases": [
+      "xm-group"
+    ]
   },
   {
     "slug": "xtb",
@@ -282,6 +627,8 @@
   {
     "slug": "zerodha",
     "name": "Zerodha",
-    "aliases": ["kite"]
+    "aliases": [
+      "kite"
+    ]
   }
 ]

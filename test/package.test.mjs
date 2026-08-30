@@ -9,7 +9,7 @@ const root = fileURLToPath(new URL("..", import.meta.url));
 
 describe("brokers-encyclopedia", () => {
   it("exports a non-empty catalog", () => {
-    assert.ok(brokers.length >= 50);
+    assert.equal(brokers.length, 100);
   });
 
   it("ships an SVG file for every slug", () => {
@@ -29,6 +29,9 @@ describe("brokers-encyclopedia", () => {
     assert.equal(getBroker("etoro")?.name, "eToro");
     assert.equal(getBroker("hl")?.slug, "hargreaves-lansdown");
     assert.equal(getBroker("okex")?.slug, "okx");
+    assert.equal(getBroker("icmarkets")?.slug, "ic-markets");
+    assert.equal(getBroker("huobi")?.slug, "htx");
+    assert.equal(getBroker("ii")?.slug, "interactive-investor");
     assert.equal(getBroker("missing-broker"), undefined);
   });
 
